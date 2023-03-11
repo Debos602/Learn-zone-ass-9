@@ -25,7 +25,11 @@ function App() {
       // {path: '/home', element: <Background></Background>},
       {path: '/', element: <Question></Question>},
       
-      {path:'/static', element: <Statics></Statics>},
+      {path:'/static',
+      loader:async()=>{
+        return fetch('https://openapi.programming-hero.com/api/quiz')
+      },
+       element: <Statics></Statics>},
       {path:'/blog', element: <Blog></Blog>},
       {path: '*', element: <div className='text-danger'>Page not found 404</div>}
     ],
