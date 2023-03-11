@@ -9,11 +9,11 @@ const Home = () => {
     return (
         <div>
             <Background></Background>
-            <div className="container d-flex justify-content-between gap-3 mt-3 shadow p-3 mb-5 bg-body-tertiary rounded">
-            
-             {quizes?.map(quize=> <Quize key={quize.id} quize={quize}></Quize>)}
-          
-        </div>
+            <div className="container mt-3 mb-5">
+                <div className="row justify-content-between shadow mb-5 gy-3 gy-lg-0">
+                {quizes?.map(quize=> <Quize key={quize.id} quize={quize}></Quize>)}
+                </div>
+            </div>
         </div>
     );
 };

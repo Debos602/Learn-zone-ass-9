@@ -10,8 +10,7 @@ const Quize = ({quize}) => {
     // console.log(quize.logo);
     const {id,logo, name}=quize;
     return (
-        <div >
-         <Col>
+         <Col lg="3">
           <Card>
             <Card.Img className='image-size border border-radius p-3' variant="top" src={logo}/>
             <Card.Body className='d-flex justify-content-between'>
@@ -22,7 +21,6 @@ const Quize = ({quize}) => {
             </Card.Body>
           </Card>
         </Col>
-        </div>
     );
 };
 
