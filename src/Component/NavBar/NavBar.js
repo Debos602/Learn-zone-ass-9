@@ -4,6 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import './NavBar.css'
 
 const NavBar = () => {
+  const []
     return (
         <div className='bg-color'>
             <nav className='nav-bar container py-2'>
