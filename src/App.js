@@ -22,7 +22,7 @@ function App() {
         return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
       },
       element: <Question></Question>},
-      // {path: '/home', element: <Background></Background>},
+     
       {path: '/', element: <Question></Question>},
       
       {path:'/static',

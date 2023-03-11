@@ -7,7 +7,7 @@ import './Quize.css'
 
 
 const Quize = ({quize}) => {
-    // console.log(quize.logo);
+   
     const {id,logo, name}=quize;
     return (
          <Col lg="3">

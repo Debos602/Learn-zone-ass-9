@@ -5,7 +5,7 @@ import Quize from '../Quize/Quize';
 
 const Home = () => {
     const quizes=useLoaderData()?.data;
-    // console.log(quizes)
+    
     return (
         <div>
             <Background></Background>
