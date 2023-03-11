@@ -1,0 +1,13 @@
+ul li:hover{
+    background-color: #adadb6;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+ul li .circle:hover{
+    background-color:#1F1F52;
+    border-radius: 50%;
+    
+}
+.toast-style{
+    top: 50%;
+}
