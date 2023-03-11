@@ -7,12 +7,12 @@ import './Quize.css'
 
 
 const Quize = ({quize}) => {
-   
+    console.log(quize.logo)
     const {id,logo, name}=quize;
     return (
          <Col lg="3">
           <Card>
-            <Card.Img className='image-size border border-radius p-3' variant="top" src={logo}/>
+            <Card.Img className='image-size border border-radius p-3 bg-success-subtle' variant="top" src={logo}/>
             <Card.Body className='d-flex justify-content-between'>
               <Card.Title className='m-0 p-2'>{name}</Card.Title>
               <Link to={`/quize/${id}`}><Button variant="primary" size="sm">

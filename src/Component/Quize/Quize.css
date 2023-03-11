@@ -1,3 +1,6 @@
 .image-size{
     width: 100%;
 }
+.card img {
+    filter: invert(1);
+}
