@@ -4,7 +4,7 @@ import AllQuestion from '../AllQuestion/AllQuestion';
 
 const Question = () => {
     const {questions, name}=useLoaderData().data;
-    // console.log(question)
+    
     return (
         <div>
             <h2 className='text-white my-3'>Quiz of {name}</h2>
