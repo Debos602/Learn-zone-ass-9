@@ -8,7 +8,7 @@ import { FaEye } from 'react-icons/fa';
 
 
 const AllQuestion = ({Allquestion, index}) => {
-    const {question, options, correctAnswer, id} = Allquestion;
+    const {question, options, correctAnswer} = Allquestion;
 
     const handleToClick = (answer) => {
         if (answer === correctAnswer) {
